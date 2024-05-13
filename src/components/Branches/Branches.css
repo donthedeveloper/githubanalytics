@@ -1,0 +1,19 @@
+.accordion-items {
+  background-color: #33363d;
+  padding-left: 1em;
+  cursor: pointer;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 1em;
+  cursor: pointer;
+}
+
+.accordion-container p {
+  padding: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
