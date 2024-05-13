@@ -5,13 +5,3 @@
 .app-container {
   display: flex;
 }
-
-.left-menu {
-  align-self: flex-start;
-}
-
-.accordion-container p {
-  padding: 1em;
-  margin-top: 0;
-  margin-bottom: 0;
-}
