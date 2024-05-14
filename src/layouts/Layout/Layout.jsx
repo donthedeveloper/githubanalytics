@@ -5,7 +5,14 @@ import LeftMenuContainer from "/src/components/LeftMenuContainer/LeftMenuContain
 
 function Layout() {
 
-  const [searchRepo, setSearchRepo] = React.useState(null);
+  const [searchRepo, setSearchRepo] = React.useState({
+    // repo owner: string
+    owner: "",
+    // name of repo: string
+    repo: "",
+    // array of branches: each branch will be the sha as a string
+    branches: []
+  });
 
   return (
     <div className="app-container">
