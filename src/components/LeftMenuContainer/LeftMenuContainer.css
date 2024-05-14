@@ -1,6 +1,6 @@
 .left-menu-container {
   background-color: #313235;
-  width: 200px;
+  min-width: 200px;
   height: 100vh;
   left: 0;
   align-self: flex-start;

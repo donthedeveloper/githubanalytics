@@ -2,9 +2,9 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Layout from "./layouts/Layout/Layout";
-import Home from "./components/Home/Home";
-import Repos from "./components/Repos/Repos";
-import Analytics from "./components/Analytics/Analytics";
+import Home from "./pages/Home/Home";
+import Repos from "./pages/Repos/Repos";
+import Analytics from "./pages/Analytics/Analytics";
 
 function App() {
 

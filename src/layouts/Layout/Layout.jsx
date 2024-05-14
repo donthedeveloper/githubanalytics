@@ -4,11 +4,14 @@ import "./Layout.css";
 import LeftMenuContainer from "/src/components/LeftMenuContainer/LeftMenuContainer";
 
 function Layout() {
+
+  const [searchRepo, setSearchRepo] = React.useState(null);
+
   return (
     <div className="app-container">
       <LeftMenuContainer />
       <main className="main-content">
-        <Outlet />
+        <Outlet context={[searchRepo, setSearchRepo]} />
       </main>
     </div>
   )
