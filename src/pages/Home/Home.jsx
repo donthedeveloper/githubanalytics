@@ -1,8 +1,7 @@
 import React from "react";
 import "./Home.css";
 import HomeForm from "/src/components/HomeForm/HomeForm";
-import { signInWithGithub, auth } from "/src/firebase";
-import { getAuth } from "firebase/auth";
+import { signInWithGithub, logout, auth } from "/src/firebase";
 
 function Home() {
 
@@ -11,7 +10,7 @@ function Home() {
       <HomeForm />
       <br />
       <br />
-      <button onClick={signInWithGithub}>Sign In</button>
+      <button onClick={logout}>Log out</button>
     </>
   )
 };

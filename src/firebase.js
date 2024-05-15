@@ -1,6 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore, query, getDocs, collection, where, addDoc, } from "firebase/firestore";
-import { getAuth, signInWithPopup, GithubAuthProvider } from "firebase/auth";
+import { getAuth, signInWithPopup, GithubAuthProvider, signOut } from "firebase/auth";
 import { Octokit } from "octokit";
 import { getGithubUserInfo } from "/api/user";
 
@@ -31,34 +31,32 @@ const signInWithGithub = async () => {
         auth: token
       });
     const githubUserInfo = await getGithubUserInfo(octokit);
-
-    console.log(githubUserInfo)
-    console.log(token)
-    console.log(user)
+    console.log(githubUserInfo);
 
     const q = query(collection(db, "users"), where("uid", "==", user.uid));
     const docs = await getDocs(q);
     // // If the user doesn't exist, we create an entry for the user in the database.
-
     if (docs.docs.length === 0) {
       await addDoc(collection(db, "users"), {
         uid: user.uid,
         name: githubUserInfo.data.login,
+        avatar: githubUserInfo.data.avatar_url,
         githubAccessToken: token,
         authProvider: "github",
         email: user.email,
       });
-    }
-
-  } catch(err) {
+    };
+  } catch(error) {
     // Handle Errors here.
     const errorCode = error.code;
     const errorMessage = error.message;
-    // The email of the user's account used.
-    const email = error.customData.email;
     // The AuthCredential type that was used.
     const credential = GithubAuthProvider.credentialFromError(error);
   };
 };
 
-export { signInWithGithub, auth };
+const logout = () => {
+  signOut(auth);
+};
+
+export { signInWithGithub, logout, auth };
