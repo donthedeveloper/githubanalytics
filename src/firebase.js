@@ -5,7 +5,7 @@ import { Octokit } from "octokit";
 import { getGithubUserInfo } from "/api/user";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCUd-4vJz2zEXXNhcj7xTyIbgNv75YNX4Q",
+  apiKey: 
   authDomain: "github-analytics-ce54f.firebaseapp.com",
   projectId: "github-analytics-ce54f",
   storageBucket: "github-analytics-ce54f.appspot.com",
