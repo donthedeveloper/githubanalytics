@@ -5,12 +5,12 @@ import { Octokit } from "octokit";
 import { getGithubUserInfo } from "/api/user";
 
 const firebaseConfig = {
-  apiKey: 
-  authDomain: "github-analytics-ce54f.firebaseapp.com",
-  projectId: "github-analytics-ce54f",
-  storageBucket: "github-analytics-ce54f.appspot.com",
-  messagingSenderId: "517976405398",
-  appId: "1:517976405398:web:a0e69260654e4bca1759b7"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: "github-graph-analytics.firebaseapp.com",
+  projectId: "github-graph-analytics",
+  storageBucket: "github-graph-analytics.appspot.com",
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MSG_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
 
 const app = initializeApp(firebaseConfig);
