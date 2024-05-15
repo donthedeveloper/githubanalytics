@@ -430,3 +430,59 @@ import branches from "/api";
 //       }
 //   ]
 // }
+
+// Github user fetch request
+
+// {
+//   "status": 200,
+//   "url": "https://api.github.com/user",
+//   "headers": {
+//       "cache-control": "private, max-age=60, s-maxage=60",
+//       "content-type": "application/json; charset=utf-8",
+//       "etag": "W/\"71bd8e7a6e61bfd3ada1b77d66d83c92278c9d6319f95e63b2b10bb312e299a7\"",
+//       "last-modified": "Thu, 21 Dec 2023 20:54:40 GMT",
+//       "x-accepted-oauth-scopes": "",
+//       "x-github-media-type": "github.v3; format=json",
+//       "x-github-request-id": "CB25:28745E:180AB25:2D0FE05:6644CA46",
+//       "x-oauth-scopes": "repo, user:email",
+//       "x-ratelimit-limit": "5000",
+//       "x-ratelimit-remaining": "4994",
+//       "x-ratelimit-reset": "1715787770",
+//       "x-ratelimit-resource": "core",
+//       "x-ratelimit-used": "6"
+//   },
+//   "data": {
+//       "login": "mahgah189",
+//       "id": 123992408,
+//       "node_id": "U_kgDOB2P5WA",
+//       "avatar_url": "https://avatars.githubusercontent.com/u/123992408?v=4",
+//       "gravatar_id": "",
+//       "url": "https://api.github.com/users/mahgah189",
+//       "html_url": "https://github.com/mahgah189",
+//       "followers_url": "https://api.github.com/users/mahgah189/followers",
+//       "following_url": "https://api.github.com/users/mahgah189/following{/other_user}",
+//       "gists_url": "https://api.github.com/users/mahgah189/gists{/gist_id}",
+//       "starred_url": "https://api.github.com/users/mahgah189/starred{/owner}{/repo}",
+//       "subscriptions_url": "https://api.github.com/users/mahgah189/subscriptions",
+//       "organizations_url": "https://api.github.com/users/mahgah189/orgs",
+//       "repos_url": "https://api.github.com/users/mahgah189/repos",
+//       "events_url": "https://api.github.com/users/mahgah189/events{/privacy}",
+//       "received_events_url": "https://api.github.com/users/mahgah189/received_events",
+//       "type": "User",
+//       "site_admin": false,
+//       "name": null,
+//       "company": null,
+//       "blog": "",
+//       "location": null,
+//       "email": null,
+//       "hireable": null,
+//       "bio": null,
+//       "twitter_username": null,
+//       "public_repos": 21,
+//       "public_gists": 0,
+//       "followers": 0,
+//       "following": 0,
+//       "created_at": "2023-01-30T19:46:37Z",
+//       "updated_at": "2023-12-21T20:54:40Z"
+//   }
+// }

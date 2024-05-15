@@ -28,5 +28,3 @@ export const userRepos = await octokit.request('GET /users/donthedeveloper/repos
 })
 
 export default branches;
-
-console.log(import.meta.env.TEST_API_KEY)

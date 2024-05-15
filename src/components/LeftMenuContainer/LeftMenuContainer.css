@@ -1,6 +1,6 @@
 .left-menu-container {
   background-color: #313235;
-  width: 200px;
+  min-width: 200px;
   height: 100vh;
   left: 0;
   align-self: flex-start;
@@ -16,7 +16,7 @@
 .navlink-container {
   display: flex;
   flex-direction: column;
-  padding-top: 1.5em;
+  padding-top: 1em;
 }
 
 .navlink-container a {
