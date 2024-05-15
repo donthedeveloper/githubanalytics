@@ -3,6 +3,9 @@ import { NavLink } from "react-router-dom";
 import "./LeftMenuContainer.css";
 
 function LeftMenuContainer() {
+
+  const auth = getAuth();
+
   return (
     <div className="left-menu-container">
       <p className="nav-logo">GitAnalyzer</p>
