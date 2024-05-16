@@ -16,6 +16,12 @@ function LeftMenuLoggedInButtons() {
       >
       Analytics
       </NavLink>
+      <NavLink
+        to="profileStats"
+        className={`navlink ${({ isActive }) => isActive ? "navlink--active" : null}`}
+      >
+      Profile Stats
+      </NavLink>
     </>
   )
 };
