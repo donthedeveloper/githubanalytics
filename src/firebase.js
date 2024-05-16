@@ -59,4 +59,4 @@ const logout = () => {
   signOut(auth);
 };
 
-export { signInWithGithub, logout, auth };
+export { signInWithGithub, logout, auth }; 
