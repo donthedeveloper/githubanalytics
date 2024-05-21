@@ -7,6 +7,7 @@ import Layout from "./layouts/Layout/Layout";
 import Home from "./pages/Home/Home";
 import Repos from "./pages/Repos/Repos";
 import Analytics from "./pages/Analytics/Analytics";
+import ProfileStats from "./pages/ProfileStats/ProfileStats";
 
 const AuthContext = React.createContext();
 
@@ -24,6 +25,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="repos" element={<Repos />} />
           <Route path="analytics" element={<Analytics />} />
+          <Route path="profileStats" element={<ProfileStats />} />
         </Route>
       </Routes>
     </BrowserRouter>
