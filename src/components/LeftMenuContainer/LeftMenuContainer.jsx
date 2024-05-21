@@ -8,7 +8,6 @@ import LoginButton from "./LoginButton/LoginButton";
 function LeftMenuContainer() {
 
   const userAuth = React.useContext(AuthContext);
-  console.log(userAuth)
 
   return (
     <div className="left-menu-container">

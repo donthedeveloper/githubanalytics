@@ -1,8 +1,22 @@
 import React from "react";
 import { Gitgraph } from "@gitgraph/react";
-import { commits, branches } from "/api.js";
+import { commits, branches, arrayOfBranchesAndCommits } from "/api.js";
 
 function GitgraphComponent() {
+
+  const [repoBranches, setRepoBranches] = React.useState([]);
+  
+  React.useEffect(() => {
+    setRepoBranches(prevVal => {
+      const listOfBranchesArray = branches.data.map(branch => {
+        return branch.commit.sha;
+      })
+
+      return listOfBranchesArray
+    });
+  }, []);
+
+  console.log(arrayOfBranchesAndCommits)
 
   const mainCommits = [];
 
@@ -13,7 +27,7 @@ function GitgraphComponent() {
         author: commit.commit.author.name
       })
     })
-  }
+  };
 
   mapCommits();
 
@@ -24,7 +38,6 @@ function GitgraphComponent() {
         mainCommits.forEach(commitObj => {
           main.commit(commitObj);
         })
-
       }}
     </Gitgraph>
   )
