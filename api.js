@@ -14,9 +14,11 @@ const branches = await octokit.request('GET /repos/donthedeveloper/githubanalyti
   }
 });
 
+console.log(branches)
+
 async function getCommitsPerBranch() {
   const listOfBranchesArray = branches.data.map(branch => {
-    return branch.commit.sha;
+    return branch.name;
   });
 
   for (let branch of listOfBranchesArray) {
@@ -29,6 +31,7 @@ async function getCommitsPerBranch() {
     });
 
     arrayOfBranchesAndCommits.push({
+      branch: branch,
       data: commits
     });
   };

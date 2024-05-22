@@ -1,20 +1,21 @@
 [
   {
+      "branch": "chrisbranch",
       "data": {
           "status": 200,
-          "url": "https://api.github.com/repos/donthedeveloper/githubanalytics/commits?sha=5ee312bd90286ded40feadd2cf88b3e1c31131ab&owner=donthedeveloper&repo=githubanalytics",
+          "url": "https://api.github.com/repos/donthedeveloper/githubanalytics/commits?sha=chrisbranch&owner=donthedeveloper&repo=githubanalytics",
           "headers": {
               "cache-control": "public, max-age=60, s-maxage=60",
               "content-type": "application/json; charset=utf-8",
               "etag": "W/\"e1752c70da5a85c3e4e569419a9484a7f8d5c99e0597f599c77d6ff12e3923d4\"",
               "last-modified": "Thu, 09 May 2024 00:28:48 GMT",
               "x-github-media-type": "github.v3; format=json",
-              "x-github-request-id": "E596:2AF375:493070E:82DAC8C:664D2047",
+              "x-github-request-id": "FB06:161266:28BE6C5:45A6793:664D374B",
               "x-ratelimit-limit": "60",
-              "x-ratelimit-remaining": "28",
-              "x-ratelimit-reset": "1716333281",
+              "x-ratelimit-remaining": "40",
+              "x-ratelimit-reset": "1716339694",
               "x-ratelimit-resource": "core",
-              "x-ratelimit-used": "32"
+              "x-ratelimit-used": "20"
           },
           "data": [
               {
@@ -451,9 +452,10 @@
       }
   },
   {
+      "branch": "clam",
       "data": {
           "status": 200,
-          "url": "https://api.github.com/repos/donthedeveloper/githubanalytics/commits?sha=a8f5e2bae18fa9aea48956a9627f28caa68b0ddc&owner=donthedeveloper&repo=githubanalytics",
+          "url": "https://api.github.com/repos/donthedeveloper/githubanalytics/commits?sha=clam&owner=donthedeveloper&repo=githubanalytics",
           "headers": {
               "cache-control": "public, max-age=60, s-maxage=60",
               "content-length": "2705",
@@ -461,12 +463,12 @@
               "etag": "W/\"f597fbf952ffd338a2651f6883136f135fe425b957ad94c640b4abdc10bb1c61\"",
               "last-modified": "Wed, 08 May 2024 23:53:37 GMT",
               "x-github-media-type": "github.v3; format=json",
-              "x-github-request-id": "E596:2AF375:4930793:82DAD50:664D2047",
+              "x-github-request-id": "FB06:161266:28BE774:45A689A:664D374B",
               "x-ratelimit-limit": "60",
-              "x-ratelimit-remaining": "27",
-              "x-ratelimit-reset": "1716333281",
+              "x-ratelimit-remaining": "39",
+              "x-ratelimit-reset": "1716339694",
               "x-ratelimit-resource": "core",
-              "x-ratelimit-used": "33"
+              "x-ratelimit-used": "21"
           },
           "data": [
               {
@@ -824,21 +826,22 @@
       }
   },
   {
+      "branch": "main",
       "data": {
           "status": 200,
-          "url": "https://api.github.com/repos/donthedeveloper/githubanalytics/commits?sha=1399edb695455641961d2ea5f39747faf9f7bc66&owner=donthedeveloper&repo=githubanalytics",
+          "url": "https://api.github.com/repos/donthedeveloper/githubanalytics/commits?sha=main&owner=donthedeveloper&repo=githubanalytics",
           "headers": {
               "cache-control": "public, max-age=60, s-maxage=60",
               "content-type": "application/json; charset=utf-8",
               "etag": "W/\"c75afcacc6018fcdecf56f5ce38ec988fa84717ed7463bfb22525c0192748fd7\"",
               "last-modified": "Tue, 21 May 2024 00:14:26 GMT",
               "x-github-media-type": "github.v3; format=json",
-              "x-github-request-id": "E596:2AF375:4930811:82DAE14:664D2047",
+              "x-github-request-id": "FB06:161266:28BE827:45A69B4:664D374B",
               "x-ratelimit-limit": "60",
-              "x-ratelimit-remaining": "26",
-              "x-ratelimit-reset": "1716333281",
+              "x-ratelimit-remaining": "38",
+              "x-ratelimit-reset": "1716339694",
               "x-ratelimit-resource": "core",
-              "x-ratelimit-used": "34"
+              "x-ratelimit-used": "22"
           },
           "data": [
               {
@@ -2590,23 +2593,103 @@
       }
   },
   {
+      "branch": "mark-oauth-complete",
       "data": {
           "status": 200,
-          "url": "https://api.github.com/repos/donthedeveloper/githubanalytics/commits?sha=04433cd5666557cf4b5c394dc86d1d8ac7277c2f&owner=donthedeveloper&repo=githubanalytics",
+          "url": "https://api.github.com/repos/donthedeveloper/githubanalytics/commits?sha=mark-oauth-complete&owner=donthedeveloper&repo=githubanalytics",
           "headers": {
               "cache-control": "public, max-age=60, s-maxage=60",
               "content-type": "application/json; charset=utf-8",
-              "etag": "W/\"cc175d93ef2783e2c3c30d6fc4931b31644a3f88ef8d87e536501e1ec68a6de9\"",
-              "last-modified": "Thu, 16 May 2024 00:38:31 GMT",
+              "etag": "W/\"f95f0f2d5080727741bdad35fd04983ad4d9e9e6478d9417d58d6aa7146355bb\"",
+              "last-modified": "Tue, 21 May 2024 23:52:25 GMT",
               "x-github-media-type": "github.v3; format=json",
-              "x-github-request-id": "E596:2AF375:49308AC:82DAF12:664D2047",
+              "x-github-request-id": "FB06:161266:28BE923:45A6B27:664D374C",
               "x-ratelimit-limit": "60",
-              "x-ratelimit-remaining": "25",
-              "x-ratelimit-reset": "1716333281",
+              "x-ratelimit-remaining": "37",
+              "x-ratelimit-reset": "1716339694",
               "x-ratelimit-resource": "core",
-              "x-ratelimit-used": "35"
+              "x-ratelimit-used": "23"
           },
           "data": [
+              {
+                  "sha": "ecd97d1c88bc8f201362f740f2e65ac7d8a917a9",
+                  "node_id": "C_kwDOL4ER9toAKGVjZDk3ZDFjODhiYzhmMjAxMzYyZjc0MGYyZTY1YWM3ZDhhOTE3YTk",
+                  "commit": {
+                      "author": {
+                          "name": "Mark Baek",
+                          "email": "mkbk189@gmail.com",
+                          "date": "2024-05-21T23:52:25Z"
+                      },
+                      "committer": {
+                          "name": "Mark Baek",
+                          "email": "mkbk189@gmail.com",
+                          "date": "2024-05-21T23:52:25Z"
+                      },
+                      "message": "worked on API calls for the Gitgraph",
+                      "tree": {
+                          "sha": "ca065c6edadfac5627831e48b3b0e199b6b7c467",
+                          "url": "https://api.github.com/repos/donthedeveloper/githubanalytics/git/trees/ca065c6edadfac5627831e48b3b0e199b6b7c467"
+                      },
+                      "url": "https://api.github.com/repos/donthedeveloper/githubanalytics/git/commits/ecd97d1c88bc8f201362f740f2e65ac7d8a917a9",
+                      "comment_count": 0,
+                      "verification": {
+                          "verified": false,
+                          "reason": "unsigned",
+                          "signature": null,
+                          "payload": null
+                      }
+                  },
+                  "url": "https://api.github.com/repos/donthedeveloper/githubanalytics/commits/ecd97d1c88bc8f201362f740f2e65ac7d8a917a9",
+                  "html_url": "https://github.com/donthedeveloper/githubanalytics/commit/ecd97d1c88bc8f201362f740f2e65ac7d8a917a9",
+                  "comments_url": "https://api.github.com/repos/donthedeveloper/githubanalytics/commits/ecd97d1c88bc8f201362f740f2e65ac7d8a917a9/comments",
+                  "author": {
+                      "login": "mahgah189",
+                      "id": 123992408,
+                      "node_id": "U_kgDOB2P5WA",
+                      "avatar_url": "https://avatars.githubusercontent.com/u/123992408?v=4",
+                      "gravatar_id": "",
+                      "url": "https://api.github.com/users/mahgah189",
+                      "html_url": "https://github.com/mahgah189",
+                      "followers_url": "https://api.github.com/users/mahgah189/followers",
+                      "following_url": "https://api.github.com/users/mahgah189/following{/other_user}",
+                      "gists_url": "https://api.github.com/users/mahgah189/gists{/gist_id}",
+                      "starred_url": "https://api.github.com/users/mahgah189/starred{/owner}{/repo}",
+                      "subscriptions_url": "https://api.github.com/users/mahgah189/subscriptions",
+                      "organizations_url": "https://api.github.com/users/mahgah189/orgs",
+                      "repos_url": "https://api.github.com/users/mahgah189/repos",
+                      "events_url": "https://api.github.com/users/mahgah189/events{/privacy}",
+                      "received_events_url": "https://api.github.com/users/mahgah189/received_events",
+                      "type": "User",
+                      "site_admin": false
+                  },
+                  "committer": {
+                      "login": "mahgah189",
+                      "id": 123992408,
+                      "node_id": "U_kgDOB2P5WA",
+                      "avatar_url": "https://avatars.githubusercontent.com/u/123992408?v=4",
+                      "gravatar_id": "",
+                      "url": "https://api.github.com/users/mahgah189",
+                      "html_url": "https://github.com/mahgah189",
+                      "followers_url": "https://api.github.com/users/mahgah189/followers",
+                      "following_url": "https://api.github.com/users/mahgah189/following{/other_user}",
+                      "gists_url": "https://api.github.com/users/mahgah189/gists{/gist_id}",
+                      "starred_url": "https://api.github.com/users/mahgah189/starred{/owner}{/repo}",
+                      "subscriptions_url": "https://api.github.com/users/mahgah189/subscriptions",
+                      "organizations_url": "https://api.github.com/users/mahgah189/orgs",
+                      "repos_url": "https://api.github.com/users/mahgah189/repos",
+                      "events_url": "https://api.github.com/users/mahgah189/events{/privacy}",
+                      "received_events_url": "https://api.github.com/users/mahgah189/received_events",
+                      "type": "User",
+                      "site_admin": false
+                  },
+                  "parents": [
+                      {
+                          "sha": "04433cd5666557cf4b5c394dc86d1d8ac7277c2f",
+                          "url": "https://api.github.com/repos/donthedeveloper/githubanalytics/commits/04433cd5666557cf4b5c394dc86d1d8ac7277c2f",
+                          "html_url": "https://github.com/donthedeveloper/githubanalytics/commit/04433cd5666557cf4b5c394dc86d1d8ac7277c2f"
+                      }
+                  ]
+              },
               {
                   "sha": "04433cd5666557cf4b5c394dc86d1d8ac7277c2f",
                   "node_id": "C_kwDOL4ER9toAKDA0NDMzY2Q1NjY2NTU3Y2Y0YjVjMzk0ZGM4NmQxZDhhYzcyNzdjMmY",
@@ -4356,21 +4439,22 @@
       }
   },
   {
+      "branch": "testbranch",
       "data": {
           "status": 200,
-          "url": "https://api.github.com/repos/donthedeveloper/githubanalytics/commits?sha=b8ebb30b95b6eccf675fefc2d6e53a07bb05597f&owner=donthedeveloper&repo=githubanalytics",
+          "url": "https://api.github.com/repos/donthedeveloper/githubanalytics/commits?sha=testbranch&owner=donthedeveloper&repo=githubanalytics",
           "headers": {
               "cache-control": "public, max-age=60, s-maxage=60",
               "content-type": "application/json; charset=utf-8",
               "etag": "W/\"03cc2d9bb77873ac17ed37b27841e8c2f22d4914a86e1fb2a9418e416a825a98\"",
               "last-modified": "Thu, 09 May 2024 00:11:23 GMT",
               "x-github-media-type": "github.v3; format=json",
-              "x-github-request-id": "E596:2AF375:4930947:82DAFFD:664D2048",
+              "x-github-request-id": "FB06:161266:28BEA14:45A6C98:664D374C",
               "x-ratelimit-limit": "60",
-              "x-ratelimit-remaining": "24",
-              "x-ratelimit-reset": "1716333281",
+              "x-ratelimit-remaining": "36",
+              "x-ratelimit-reset": "1716339694",
               "x-ratelimit-resource": "core",
-              "x-ratelimit-used": "36"
+              "x-ratelimit-used": "24"
           },
           "data": [
               {
