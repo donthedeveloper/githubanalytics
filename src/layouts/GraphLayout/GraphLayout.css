@@ -12,3 +12,27 @@
 .repo-header--name {
   margin: auto;
 }
+
+.graph-layout {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.navlink--back {
+  grid-row: 2;
+}
+
+.repo-header {
+  grid-row: 3;
+  grid-column: 1 / -1;
+}
+
+.gitgraph-component {
+  grid-row: 4;
+}
+
+.gitgraph-outlet {
+  grid-row: 4;
+  grid-column: 2;
+  border: 1px solid white;
+}
