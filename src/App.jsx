@@ -6,8 +6,8 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import "./App.css";
 import Layout from "./layouts/Layout/Layout";
 import Home from "./pages/Home/Home";
-import Repos from "./pages/Repos/Repos";
-import Analytics from "./pages/Analytics/Analytics";
+import GraphLayout from "./layouts/GraphLayout/GraphLayout";
+import CommitHistory from "./components/CommitHistory/CommitHistory";
 
 const AuthContext = React.createContext();
 
@@ -29,8 +29,9 @@ function App() {
           </AuthContext.Provider>
         }>
           <Route index element={<Home />} />
-          <Route path="repos" element={<Repos />} />
-          <Route path="analytics" element={<Analytics />} />
+          <Route path="graphs" element={<GraphLayout />}>
+            <Route index element={<CommitHistory />} />
+          </Route>
         </Route>
       </Routes>
     </BrowserRouter>

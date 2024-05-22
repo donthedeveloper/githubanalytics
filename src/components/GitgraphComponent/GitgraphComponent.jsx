@@ -1,5 +1,5 @@
 import React from "react";
-import { Gitgraph } from "@gitgraph/react";
+import { Gitgraph, Mode } from "@gitgraph/react";
 import { commits, branches, arrayOfBranchesAndCommits } from "/api.js";
 
 function GitgraphComponent() {
@@ -32,13 +32,19 @@ function GitgraphComponent() {
   mapCommits();
 
   return (
-    <Gitgraph>
-      {(gitgraph) => {
-        const main = gitgraph.branch("main");
-        mainCommits.forEach(commitObj => {
-          main.commit(commitObj);
-        })
-      }}
+    <Gitgraph
+      options={
+        { mode: Mode.Compact }
+      }
+    >
+      {
+        (gitgraph) => {
+          const main = gitgraph.branch("main");
+          mainCommits.forEach(commitObj => {
+            main.commit(commitObj);
+          })
+        }
+      }
     </Gitgraph>
   )
 };
