@@ -2,13 +2,12 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./LeftMenuContainer.css";
 import { AuthContext } from "/src/App";
-import LeftMenuLoggedInButtons from "./LeftMenuLoggedInButtons/LeftMenuLoggedInButtons";
+import LeftMenuLoggedInButton from "./LeftMenuLoggedInButton/LeftMenuLoggedInButton";
 import LoginButton from "./LoginButton/LoginButton";
 
 function LeftMenuContainer() {
 
   const userAuth = React.useContext(AuthContext);
-  console.log(userAuth)
 
   return (
     <div className="left-menu-container">
@@ -22,7 +21,7 @@ function LeftMenuContainer() {
         </NavLink>
         {
           userAuth
-          ? <LeftMenuLoggedInButtons />
+          ? <LeftMenuLoggedInButton />
           : <LoginButton />
         }
       </nav>
