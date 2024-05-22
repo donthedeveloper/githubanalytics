@@ -1,0 +1,14 @@
+.navlink--back {
+  padding-top: 5em;
+}
+
+.repo-header {
+  width: 100%;
+  padding: 0.5em;
+  text-align: center;
+  background-image: linear-gradient(#3d4160, #282933);
+}
+
+.repo-header--name {
+  margin: auto;
+}

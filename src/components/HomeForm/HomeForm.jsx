@@ -5,8 +5,6 @@ import { Octokit } from "octokit";
 
 function HomeForm() {
 
-  const [searchRepo, setSearchRepo] = useOutletContext();
-
   async function getRepoBranchesAPICall(repoOwner, repoName) {
     const octokit = new Octokit();
 
@@ -19,7 +17,7 @@ function HomeForm() {
     });
     console.log(response)
     return response;
-  }
+  };
 
   React.useEffect(() => {
     const homeForm = document.getElementById("home-form-container");
