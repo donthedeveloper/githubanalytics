@@ -16,8 +16,12 @@ function GraphLayout() {
         <div className="repo-header">
           <p className="repo-header--name">Repo name</p>
         </div>
-        <GitgraphComponent />
-        <Outlet />
+        <div className="gitgraph-component">
+          <GitgraphComponent />
+        </div>
+        <div className="gitgraph-outlet">
+          <Outlet />
+        </div>
       </div>
     </>
   )
